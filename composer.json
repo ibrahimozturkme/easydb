@@ -1,6 +1,7 @@
 {
     "name": "ibrahimozturkme/easydb",
     "description": "Short mysql & pdo proccess.",
+    "version": "0.0.1",
     "license": "MIT",
     "keywords": ["php", "pdo", "oop", "mysql"],
     "authors": [
@@ -10,7 +11,8 @@
             "role": "Developer"
         },
     ],
+    "minimum-stability": "stable",
     "require": {
-        "php": ">=5.6"
+        "php": ">=5.0"
     }
 }
