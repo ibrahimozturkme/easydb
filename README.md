@@ -1,6 +1,6 @@
 [![EasyDB](http://ibrahimozturk.me/assets/img/article/cover_1490025776.jpg)](http://ibrahimozturk.me/yazi/8-easydb-pdo-kutuphanesi)
 
-###### Constructor
+### Constructor
 
 - `$database` : String.
 - `$host` : String.
@@ -18,22 +18,26 @@ Localhost mode
 
 - - -
 
-###### SQL
+### SQL
+
 - `$proccess` : String.
 - `$table` : String.
 
 
-     $db->sql('select', 'articles')
+     $db->sql('select', 'articles');
+     
 - - -
 
-###### Serialize
+### Serialize
+
 - `$array` : Array. Form data
 
 
      $db->sql('insert', 'articles')->serialize($_POST)->result();
 
 - - -
-###### Additional
+### Additional
+
 - `$type` : String.
 - `$array` : Array. Form data
 
@@ -41,19 +45,21 @@ Localhost mode
      $db->sql('update', 'articles')->serialize($array)->additional('WHERE id = :id', ['id' => 2])->result();
 
 - - -
-###### Result
+### Result
+
 Query result.
 
      $db->sql('select', 'articles')->result();
 
 - - -
-###### Examples
+### Examples
 
 __SELECT - Single__
 
      $query    = $db->sql('select', 'articles')->additional('WHERE id = :id', ['id' => 2])->result();
      echo $query->count;
      echo $query->result->title;
+
 
 __SELECT - Multiple__
 
@@ -64,16 +70,19 @@ __SELECT - Multiple__
           echo $row->title.'<br>';
      }
 
+
 __INSERT__
 
      $insert   = $db->sql('insert', 'articles')->serialize($array)->result();
      echo $insert->last_id;
      echo ($insert->result) ? 'Has been added.' : 'Could not be added.';
 
+
 __UPDATE__
 
      $update   = $db->sql('update', 'articles')->serialize($array)->additional('WHERE id = :id', ['id' => 2])->result();
      echo ($update->result) ? 'Have been updated.' : 'Update failed.';
+
 
 __DELETE__
 
