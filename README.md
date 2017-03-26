@@ -28,6 +28,15 @@ Localhost mode
      
 - - -
 
+### From
+
+- `$fields` : String.
+
+
+     $db->sql('select', 'articles')->from('id, title, article');
+
+- - -
+
 ### Serialize
 
 - `$array` : Array. Form data
@@ -70,6 +79,14 @@ __SELECT - Multiple__
           echo $row->title.'<br>';
      }
 
+__SELECT - From__
+
+     $query    = $db->sql('select', 'articles')->from('id, title, article')->result();
+     echo $query->count;
+     
+     foreach($query->result as $row){
+          echo $row->title.'<br>';
+     }
 
 __INSERT__
 
