@@ -74,6 +74,17 @@
 
           /*
 
+               From
+               @param string $fields
+
+          */
+          public function from($fields){
+               $this->sql     = str_replace('*', $fields, $this->sql);
+               return $this;
+          }
+
+          /*
+
                Serialize
                @param array $array
 
