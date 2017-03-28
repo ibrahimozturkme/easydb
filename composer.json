@@ -1,0 +1,13 @@
+{
+  "name": "ibrahimozturkme/easydb",
+  "description": "Short MySQL & PDO Proccess.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "İbrahim ÖZTÜRK",
+      "email": "work@ibrahimozturk.me"
+    }
+  ],
+  "require": {}
+}
