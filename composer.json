@@ -1,8 +1,9 @@
 {
   "name": "ibrahimozturkme/easydb",
   "description": "Short MySQL & PDO Proccess.",
-  "keywords": ["php", "pdo", "mysql"],
+  "keywords": ["php", "pdo", "mysql", "db"],
   "homepage": "https://github.com/ibrahimozturkme/easydb",
+  "minimum-stability": "dev",
   "type": "library",
   "license": "MIT",
   "authors": [
