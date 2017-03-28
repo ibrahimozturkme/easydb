@@ -1,13 +1,20 @@
 {
   "name": "ibrahimozturkme/easydb",
   "description": "Short MySQL & PDO Proccess.",
+  "keywords": ["php", "pdo", "mysql"],
+  "homepage": "https://github.com/ibrahimozturkme/easydb",
+  "minimum-stability": "dev",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
       "name": "İbrahim ÖZTÜRK",
       "email": "work@ibrahimozturk.me"
+      "homepage": "https://ibrahimozturk.me/"
     }
   ],
-  "require": {}
+  "require": {
+    "php": ">=5.3.0"
+  }
 }
+
