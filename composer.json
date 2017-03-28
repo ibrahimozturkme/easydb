@@ -1,17 +1,17 @@
 {
-  "name": "ibrahimozturkme/easydb",
-  "description": "Short MySQL & PDO Proccess.",
-  "keywords": ["php", "pdo", "mysql", "db"],
-  "homepage": "https://github.com/ibrahimozturkme/easydb",
-  "minimum-stability": "dev",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "İbrahim ÖZTÜRK",
-      "email": "work@ibrahimozturk.me",
-      "homepage": "https://ibrahimozturk.me/"
-    }
-  ]
+    "name": "ibrahimozturkme/easydb",
+    "description": "Short MySQL & PDO Proccess.",
+    "keywords": ["php", "pdo", "mysql", "db"],
+    "homepage": "https://github.com/ibrahimozturkme/easydb",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ibrahim OZTURK",
+            "email": "work@ibrahimozturk.me",
+            "homepage": "https://ibrahimozturk.me/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }
-
