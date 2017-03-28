@@ -2,7 +2,7 @@
 
 ### Installing via Composer
 
-`$ composer require ibrahimozturkme/easydb`
+`$ composer require "ibrahimozturkme/easydb":"dev-master"
 
 ### Constructor
 
