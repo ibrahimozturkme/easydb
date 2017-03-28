@@ -11,9 +11,6 @@
       "email": "work@ibrahimozturk.me",
       "homepage": "https://ibrahimozturk.me/"
     }
-  ],
-  "require": {
-    "php": ">=5.3.0"
-  }
+  ]
 }
 
