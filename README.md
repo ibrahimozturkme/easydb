@@ -1,5 +1,9 @@
 [![EasyDB](http://ibrahimozturk.me/assets/img/article/cover_1490025776.jpg)](http://ibrahimozturk.me/yazi/8-easydb-pdo-kutuphanesi)
 
+### Installing via Composer
+
+`$ composer require ibrahimozturkme/easydb`
+
 ### Constructor
 
 - `$database` : String.
@@ -10,11 +14,11 @@
 
 Server Mode
 
-     $db = new EasyDB('database_name', 'localhost', 'ibrahimozturk', '12341234', 'utf8');
+     $db = new \EasyDB\Connection('database_name', 'localhost', 'ibrahimozturk', '12341234', 'utf8');
 
 Localhost mode
 
-     $db = new EasyDB('database_name');
+     $db = new \EasyDB\Connection('database_name');
 
 - - -
 
