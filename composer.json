@@ -3,7 +3,6 @@
   "description": "Short MySQL & PDO Proccess.",
   "keywords": ["php", "pdo", "mysql"],
   "homepage": "https://github.com/ibrahimozturkme/easydb",
-  "minimum-stability": "dev",
   "type": "library",
   "license": "MIT",
   "authors": [
