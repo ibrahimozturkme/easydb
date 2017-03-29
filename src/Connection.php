@@ -1,4 +1,6 @@
-<?php namespace EasyDB;
+<?php
+   
+namespace src\EasyDB;
 
 /**
  * @author İbrahim ÖZTÜRK
