@@ -1,6 +1,6 @@
 <?php
    
-namespace src\EasyDB;
+namespace src\EasyDB\Connection;
 
 /**
  * @author İbrahim ÖZTÜRK
